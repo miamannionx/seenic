@@ -12,7 +12,7 @@ const Tab1: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
-          <IonButton shape="round">Button</IonButton>
+        <ion-button>Default</ion-button>
           <IonToolbar>
             <IonTitle size="large">Hi! Let's start walking.</IonTitle>
           </IonToolbar>
