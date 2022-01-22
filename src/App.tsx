@@ -13,6 +13,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
 import Map from './pages/Map';
 import CreateWalk from './pages/CreateWalk';
+import Community from './pages/Community';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -48,6 +49,9 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/map">
             <Map />
+          </Route>
+          <Route exact path="/community">
+            <Community />
           </Route>
           <Route exact path="/tab1">
             <Tab1 />

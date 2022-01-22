@@ -15,17 +15,19 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Lets go for a stroll.</IonTitle>
+            <IonTitle size="large">Good morning Mia!.</IonTitle>
           </IonToolbar>
         </IonHeader>
+
         <Link to="/createwalk"> 
           <IonButton class = "mainButtonLeft" shape ="round" size = "large">
             Go on a walk 
           </IonButton>
         </Link>
+
         <br /> 
         <Link to="/map"> 
-          <IonButton float-right class = "mainButtonRight" shape ="round" size = "large">
+          <IonButton float-right class = "mainButtonRight" shape ="round" size = "large" >
             View 
             <br /> 
             popular 
@@ -33,14 +35,18 @@ const Tab1: React.FC = () => {
             walks
           </IonButton>
         </Link>
+
         <br /> 
-        <IonButton class = "mainButtonLeft" shape ="round" size = "large">
-          View 
-          <br /> 
-          community 
-          <br /> 
-          events
-        </IonButton>
+        <Link to="/community"> 
+          <IonButton class = "mainButtonLeft" shape ="round" size = "large">
+            View 
+            <br /> 
+            community 
+            <br /> 
+            events
+          </IonButton>
+        </Link>
+
       </IonContent>
     </IonPage>
   );
