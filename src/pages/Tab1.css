@@ -1,0 +1,11 @@
+.mainButtonLeft{
+    height: 200px;
+    width: 200px;
+}
+
+.mainButtonRight{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}

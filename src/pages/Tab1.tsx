@@ -16,14 +16,24 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Lets go for a stroll.</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonButton shape ="round" size = "large">
-          Go on walk
+        <IonButton class = "mainButtonLeft" shape ="round" size = "large">
+          Go on a walk
         </IonButton>
-        <IonButton shape ="round" size = "large">
-          View popular walks
+        <br /> 
+        <IonButton class = "mainButtonRight" shape ="round" size = "large">
+          View 
+          <br /> 
+          popular 
+          <br /> 
+          walks
         </IonButton>
-        <IonButton shape ="round" size = "large">
-          View community events
+        <br /> 
+        <IonButton class = "mainButtonLeft" shape ="round" size = "large">
+          View 
+          <br /> 
+          community 
+          <br /> 
+          events
         </IonButton>
         <ExploreContainer name="Hello." />
       </IonContent>
