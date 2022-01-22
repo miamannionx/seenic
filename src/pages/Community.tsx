@@ -1,3 +1,9 @@
+// Community page, contains upcoming community events.
+// General mental wellbeing can be improved when interacting with nature and helping the local community.
+// This section allows community events to do with green spaces, nature and the environment to be advertised.
+// Clicking on an event will lead to a page with more information on it:
+// Sign up forms, who to contact, description of event, etc.
+// User can be prompted to add event to their mobile calendar.
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent } from '@ionic/react';
 import './Community.css';
 

@@ -1,3 +1,7 @@
+// Friends feed page. Can view friends and their walks. 
+// Clicking on one would show route taken on a map, any pictures they took on the walk and uploaded.
+// And their "caption" for the walk, and their rating.
+// A user can choose to do as many of the above "walk review" features when recording their walk as they wish to.
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonIcon, IonLabel, IonButton } from '@ionic/react';
 import { pin } from 'ionicons/icons';
 import './Tab2.css';

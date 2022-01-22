@@ -1,5 +1,6 @@
+// Basic profile page where user can view their previous walks.
+// Link to fitbit (or equivalent) to track the route you go on when you go on a walk.
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
-
 import './Tab3.css';
 
 const Tab3: React.FC = () => {
@@ -27,6 +28,10 @@ const Tab3: React.FC = () => {
         <br />
         <IonButton expand = "block" shape ="round" size = "large">
             Edit profile
+        </IonButton>
+        <br />
+        <IonButton expand = "block" shape ="round" size = "large">
+            Link to fitbit
         </IonButton>
         <br />
         <IonButton expand = "block" shape ="round" size = "large">

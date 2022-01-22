@@ -1,3 +1,8 @@
+// Returns a number of walks for user based on what they select.
+// Distance will be a drop down selector of <1km, 1-2km, etc...
+// The user, when creating the account and then on profile, will be able to add/remove "walk tags".
+// "Walk tags" are just tags of interest. Whenever a user logs a walk, they will be able to add relevant tags to it.
+// This is then recorded so following users who are interested in specific tags can go on walks with specified tags.
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
 import './CreateWalk.css';
 

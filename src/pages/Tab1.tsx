@@ -1,3 +1,7 @@
+// Contains layout for home page.
+// User can generate a walk based on inputted preferences.
+// They can see most popular walks near them.
+// And view nature-oriented community events near them.
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
 import React from "react"
 import { Link } from 'react-router-dom'
@@ -7,7 +11,7 @@ const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar> 
           <IonTitle>Seenic</IonTitle>
         </IonToolbar>
       </IonHeader>

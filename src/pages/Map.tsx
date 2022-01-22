@@ -1,4 +1,9 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
+// Empty for now, but will contain a map feature.
+// The map displays walks near to user's current location.
+// Clicking on walk will show pictures taken on the walk uploaded by other users,
+// reviews of the walk, ratings, etc.
+// Will also use mapping interface when user is given a walk or going on a walk and recording it.
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardTitle } from '@ionic/react';
 import './Map.css';
 
 const Map: React.FC = () => {
@@ -16,14 +21,11 @@ const Map: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <IonButton class = "mainButton" shape ="round" size = "large">
-            Will contain map 
-            <br /> 
-            with top most popular walking 
-            <br /> 
-            routes around current location
-        </IonButton>
-        <br />
+        <IonCard class = "cardBorder">
+            <IonCardHeader>
+              <IonCardTitle>Will contain interactive map, with popular walking routes near to current location highlighted.</IonCardTitle>
+            </IonCardHeader>
+         </IonCard>
 
       </IonContent>
     </IonPage>
