@@ -18,7 +18,11 @@ const Map: React.FC = () => {
         </IonHeader>
 
         <IonButton shape ="round" size = "large">
-            Will contain map with top most popular walking routes around current location
+            Will contain map 
+            <br /> 
+            with top most popular walking 
+            <br /> 
+            routes around current location
         </IonButton>
         <br />
 
