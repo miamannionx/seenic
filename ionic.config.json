@@ -1,0 +1,8 @@
+{
+  "name": "Hack Cambridge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "a184eb85"
+}
