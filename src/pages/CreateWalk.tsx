@@ -16,7 +16,7 @@ const CreateWalk: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-          <IonButton fill = "outline" shape ="round" size = "large">
+          <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Select distance   
             <IonButton shape ="round" color = "tertiary">
                  select 
@@ -24,7 +24,7 @@ const CreateWalk: React.FC = () => {
           </IonButton>
           
           <br />
-          <IonButton fill = "outline" shape ="round" size = "large">
+          <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Select walk tags
             <br />
             <IonButton shape ="round" color = "secondary">
@@ -39,12 +39,12 @@ const CreateWalk: React.FC = () => {
           </IonButton>
 
           <br />
-          <IonButton fill = "outline" shape ="round" size = "large">
+          <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Invite friends
           </IonButton>
 
           <br />
-          <IonButton shape ="round" size = "large" color = "primary">
+          <IonButton expand = "block" shape ="round" size = "large" color = "primary">
             Create my walk
           </IonButton>
 

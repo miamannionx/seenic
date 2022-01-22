@@ -17,23 +17,23 @@ const Tab3: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <IonButton shape ="round" size = "large">
+        <IonButton expand = "block" shape ="round" size = "large">
             Your walks
         </IonButton>
         <br />
-        <IonButton shape ="round" size = "large">
+        <IonButton expand = "block" shape ="round" size = "large">
             Add friend
         </IonButton>
         <br />
-        <IonButton shape ="round" size = "large">
+        <IonButton expand = "block" shape ="round" size = "large">
             Edit profile
         </IonButton>
         <br />
-        <IonButton shape ="round" size = "large">
+        <IonButton expand = "block" shape ="round" size = "large">
             Settings
         </IonButton>
         <br />
-        <IonButton fill = "outline" shape ="round" size = "large">
+        <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Log out
         </IonButton>
         <br />
