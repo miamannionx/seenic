@@ -1,5 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import React from "react"
+import { Link } from 'react-router-dom'
+// import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
 const Tab1: React.FC = () => {
@@ -16,17 +18,21 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Lets go for a stroll.</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonButton class = "mainButtonLeft" shape ="round" size = "large">
-          Go on a walk
-        </IonButton>
+        <Link to="/createwalk"> 
+          <IonButton class = "mainButtonLeft" shape ="round" size = "large">
+            Go on a walk 
+          </IonButton>
+        </Link>
         <br /> 
-        <IonButton class = "mainButtonRight" shape ="round" size = "large">
-          View 
-          <br /> 
-          popular 
-          <br /> 
-          walks
-        </IonButton>
+        <Link to="/map"> 
+          <IonButton float-right class = "mainButtonRight" shape ="round" size = "large">
+            View 
+            <br /> 
+            popular 
+            <br /> 
+            walks
+          </IonButton>
+        </Link>
         <br /> 
         <IonButton class = "mainButtonLeft" shape ="round" size = "large">
           View 
@@ -35,7 +41,6 @@ const Tab1: React.FC = () => {
           <br /> 
           events
         </IonButton>
-        <ExploreContainer name="Hello." />
       </IonContent>
     </IonPage>
   );
