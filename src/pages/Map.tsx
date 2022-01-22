@@ -1,5 +1,4 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton } from '@ionic/react';
-// import ExploreContainer from '../components/ExploreContainer';
 import './Map.css';
 
 const Map: React.FC = () => {
@@ -13,11 +12,11 @@ const Map: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Hi Mia!</IonTitle>
+            <IonTitle size="large">View map</IonTitle>
           </IonToolbar>
         </IonHeader>
 
-        <IonButton shape ="round" size = "large">
+        <IonButton class = "mainButton" shape ="round" size = "large">
             Will contain map 
             <br /> 
             with top most popular walking 

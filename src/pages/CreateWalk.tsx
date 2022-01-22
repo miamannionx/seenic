@@ -26,18 +26,17 @@ const CreateWalk: React.FC = () => {
           <br />
           <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Select walk tags
-            <br />
-            <IonButton shape ="round" color = "secondary">
-                Coffee
-            </IonButton>
-            <IonButton shape ="round" color = "secondary">
-                Park
-            </IonButton>
-            <IonButton shape ="round" color = "secondary">
-                Scenic
-            </IonButton>
           </IonButton>
-
+          <IonButton shape ="round" color = "secondary">
+            Coffee
+          </IonButton>
+          <IonButton shape ="round" color = "secondary">
+            Scenic
+          </IonButton>
+          <IonButton shape ="round" color = "secondary">
+            Park
+          </IonButton>
+          
           <br />
           <IonButton expand = "block" fill = "outline" shape ="round" size = "large">
             Invite friends
