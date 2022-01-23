@@ -3,6 +3,7 @@ Hack Cambridge 2022 Hackathon Entry: SEENIC
 
 
 - Overview
+
 Following the global pandemic many people have started to appreciate spending more time in nature, but have often struggled to explore all the paths and green spaces that their local area has to offer. 
 
 Seenic is a mobile application that is designed to give people recommendations on walking routes in their local area which are tailored to their personal preferences, as well as provide a platform to stay connected with their local community. 
